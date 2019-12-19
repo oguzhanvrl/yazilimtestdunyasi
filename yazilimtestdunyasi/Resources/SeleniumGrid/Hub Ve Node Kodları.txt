@@ -1,0 +1,5 @@
+Hub :java -jar internetexplorer.jar -role hub
+
+Node: java -Dwebdriver.chrome.driver=""C:\Users\bilal\OneDrive\Masaüstü\yazilimtestdunyasi\yazilimtestdunyasi\Resources\drivers\chromedriver.exe"" -jar ""selenium-server-standalone-3.141.59.jar"" -role node -hub http://localhost:4444/grid/register/
+
+Node ları görüntülemek için kullanılan URL: http://localhost:4444/grid/console 

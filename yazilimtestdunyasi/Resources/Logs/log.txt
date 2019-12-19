@@ -1,0 +1,211 @@
+
+2019-12-17 20:31:54,768 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL           => https://ubs.cbu.edu.tr/ 
+ > Error Message =>   Sitede Kayýtlý User Name ile beklenen User Name Uyuþmuyordu!
+Sitedeki User Name => Bilal Aksal
+Olmasý Gereken User Name => Oguzhan Varol
+  Expected: True
+  But was:  False
+ 
+ > Test Result   => Failed 
+
+2019-12-17 20:33:47,244 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL           => https://ubs.cbu.edu.tr/ 
+ > Error Message =>   Sitede Kayýtlý User Name ile beklenen User Name Uyuþmuyordu!
+Sitedeki User Name => Bilal Aksal
+Olmasý Gereken User Name => Oguzhan Varol
+  Expected: True
+  But was:  False
+ 
+ > Test Result   => Failed 
+
+2019-12-17 20:42:23,714 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL           => https://ubs.cbu.edu.tr/ 
+ > Error Message =>   Sitede Kayýtlý User Name ile beklenen User Name Uyuþmuyordu!
+Sitedeki User Name => Bilal Aksal
+Olmasý Gereken User Name => Oguzhan Varol
+  Expected: True
+  But was:  False
+ 
+ > Test Result   => Failed 
+
+2019-12-17 20:46:44,753 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL           => https://ubs.cbu.edu.tr/ 
+ > Error Message =>   Sitede Kayýtlý User Name ile beklenen User Name Uyuþmuyordu!
+Sitedeki User Name => Bilal Aksal
+Olmasý Gereken User Name => Oguzhan Varol
+Testin Yapýldýðý Browser =>OpenQA.Selenium.Remote.RemoteWebDriver
+  Expected: True
+  But was:  False
+ 
+ > Test Result   => Failed 
+
+2019-12-17 20:48:35,340 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL           => https://ubs.cbu.edu.tr/ 
+ > Error Message =>   Sitede Kayýtlý User Name ile beklenen User Name Uyuþmuyordu!
+Sitedeki User Name => Bilal Aksal
+Olmasý Gereken User Name => Oguzhan Varol
+Testin Yapýldýðý Browser =>
+  Expected: True
+  But was:  False
+ 
+ > Test Result   => Failed 
+
+2019-12-17 20:52:54,854 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL           => https://ubs.cbu.edu.tr/ 
+ > Error Message =>   Sitede Kayýtlý User Name ile beklenen User Name Uyuþmuyordu!
+Sitedeki User Name => Bilal Aksal
+Olmasý Gereken User Name => Oguzhan Varol
+Testin Yapýldýðý Browser =>6442450947
+  Expected: True
+  But was:  False
+ 
+ > Test Result   => Failed 
+
+2019-12-17 21:02:52,453 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL           => https://ubs.cbu.edu.tr/ 
+ > Error Message =>   Sitede Kayýtlý User Name ile beklenen User Name Uyuþmuyordu!
+Sitedeki User Name => Bilal Aksal
+Olmasý Gereken User Name => Oguzhan Varol
+Testin Yapýldýðý Browser =>chrome  version: 79.0.3945.79
+  Expected: True
+  But was:  False
+ 
+ > Test Result   => Failed 
+
+2019-12-17 21:06:48,129 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL           => https://ubs.cbu.edu.tr/ 
+ > Error Message =>   Sitede Kayýtlý User Name ile beklenen User Name Uyuþmuyordu!
+Sitedeki User Name => Bilal Aksal
+Olmasý Gereken User Name => Oguzhan Varol
+Testin Yapýldýðý Browser =>chrome  version: 79.0.3945.79
+  Expected: True
+  But was:  False
+ 
+ > Test Result   => Failed 
+
+2019-12-18 15:31:27,415 [16] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL               =>  
+ > errorMessage      =>  
+ > exceptionMessage  => OpenQA.Selenium.WebDriverException 
+ > ERROR DETAIL (ex) => 
+
+OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:61409/session/77507f98d0ef204594441da00c34ba03/url timed out after 60 seconds. ---> System.Net.WebException: Ýstek durduruldu: Ýþlem zaman aþýmýna uðradý.
+   konum: System.Net.HttpWebRequest.GetResponse()
+   konum: OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   konum: OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   konum: OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   konum: OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
+   konum: yazilimtestdunyasi.Base.BaseUITestCase.BeforeMethod(BrowserType browser) C:\Users\bilal\OneDrive\Masaüstü\yazilimtestdunyasi\yazilimtestdunyasi\Base\BaseUITestCase.cs içinde: satýr 209
+2019-12-18 15:33:36,321 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL               =>  
+ > errorMessage      =>  
+ > exceptionMessage  => OpenQA.Selenium.WebDriverException 
+ > ERROR DETAIL (ex) => 
+
+OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:61530/session/2e3b91b04bf6936f1730ad6df7817412/url timed out after 60 seconds. ---> System.Net.WebException: Ýstek durduruldu: Ýþlem zaman aþýmýna uðradý.
+   konum: System.Net.HttpWebRequest.GetResponse()
+   konum: OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   konum: OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   konum: OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   konum: OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
+   konum: yazilimtestdunyasi.Base.BaseUITestCase.BeforeMethod(BrowserType browser) C:\Users\bilal\OneDrive\Masaüstü\yazilimtestdunyasi\yazilimtestdunyasi\Base\BaseUITestCase.cs içinde: satýr 209
+2019-12-18 15:37:43,061 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL               =>  
+ > errorMessage      =>  
+ > exceptionMessage  => OpenQA.Selenium.WebDriverException 
+ > ERROR DETAIL (ex) => 
+
+OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:61729/session/46d0ccaf489fe93c15d2aea29d1d17f8/url timed out after 60 seconds. ---> System.Net.WebException: Ýstek durduruldu: Ýþlem zaman aþýmýna uðradý.
+   konum: System.Net.HttpWebRequest.GetResponse()
+   konum: OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- Ýç özel durum yýðýný izlemesinin sonu ---
+   konum: OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   konum: OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+   konum: OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)
+   konum: OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)
+   konum: yazilimtestdunyasi.Base.BaseUITestCase.BeforeMethod(BrowserType browser) C:\Users\bilal\OneDrive\Masaüstü\yazilimtestdunyasi\yazilimtestdunyasi\Base\BaseUITestCase.cs içinde: satýr 209
+2019-12-18 15:38:14,645 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL           => https://ubs.cbu.edu.tr/ 
+ > Error Message =>   Sitede Kayýtlý User Name ile beklenen User Name Uyuþmuyordu!
+Sitedeki User Name => Bilal Aksal
+Olmasý Gereken User Name => Oguzhan Varol
+Testin Yapýldýðý Browser =>chrome  version: 79.0.3945.79
+  Expected: True
+  But was:  False
+ 
+ > Test Result   => Failed 
+
+2019-12-18 18:11:15,393 [16] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL               =>  
+ > errorMessage      =>  
+ > exceptionMessage  => OpenQA.Selenium.WebDriverException 
+ > ERROR DETAIL (ex) => 
+
+OpenQA.Selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, moz:firefoxOptions: {}}
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities)
+   konum: yazilimtestdunyasi.Base.BaseUITestCase.BeforeMethod(BrowserType browser) C:\Users\bilal\OneDrive\Masaüstü\yazilimtestdunyasi\yazilimtestdunyasi\Base\BaseUITestCase.cs içinde: satýr 190
+2019-12-18 18:11:47,028 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL               =>  
+ > errorMessage      =>  
+ > exceptionMessage  => OpenQA.Selenium.WebDriverException 
+ > ERROR DETAIL (ex) => 
+
+OpenQA.Selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, moz:firefoxOptions: {}}
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities)
+   konum: yazilimtestdunyasi.Base.BaseUITestCase.BeforeMethod(BrowserType browser) C:\Users\bilal\OneDrive\Masaüstü\yazilimtestdunyasi\yazilimtestdunyasi\Base\BaseUITestCase.cs içinde: satýr 190
+2019-12-18 18:12:24,154 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL               =>  
+ > errorMessage      =>  
+ > exceptionMessage  => OpenQA.Selenium.WebDriverException 
+ > ERROR DETAIL (ex) => 
+
+OpenQA.Selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, moz:firefoxOptions: {}}
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities)
+   konum: yazilimtestdunyasi.Base.BaseUITestCase.BeforeMethod(BrowserType browser) C:\Users\bilal\OneDrive\Masaüstü\yazilimtestdunyasi\yazilimtestdunyasi\Base\BaseUITestCase.cs içinde: satýr 190
+2019-12-18 18:12:55,241 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL               =>  
+ > errorMessage      =>  
+ > exceptionMessage  => OpenQA.Selenium.WebDriverException 
+ > ERROR DETAIL (ex) => 
+
+OpenQA.Selenium.WebDriverException: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: firefox, moz:firefoxOptions: {}}
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)
+   konum: OpenQA.Selenium.Remote.RemoteWebDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities)
+   konum: yazilimtestdunyasi.Base.BaseUITestCase.BeforeMethod(BrowserType browser) C:\Users\bilal\OneDrive\Masaüstü\yazilimtestdunyasi\yazilimtestdunyasi\Base\BaseUITestCase.cs içinde: satýr 190
+2019-12-18 19:21:13,651 [NonParallelWorker] ERROR yazilimtestdunyasi.Base.Helpers.Logger [(null)] - 
+ > URL           => https://ubs.cbu.edu.tr/ 
+ > Error Message =>   Sitede Kayýtlý User Name ile beklenen User Name Uyuþmuyordu!
+Sitedeki User Name => Bilal Aksal
+Olmasý Gereken User Name => Oguzhan Varol
+Testin Yapýldýðý Browser =>chrome  version: 79.0.3945.79
+  Expected: True
+  But was:  False
+ 
+ > Test Result   => Failed 
+

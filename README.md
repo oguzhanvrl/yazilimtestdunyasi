@@ -1,5 +1,6 @@
 # yazilimtestdunyasi
 Yazılım Sınama dersi sunumu kapsamında yapmış olduğumuz atolye çalışmasıdır.
+
 Bilal AKSAL- Oguzhan VAROL
 
 Sunum Linki : https://docs.google.com/presentation/d/1zFoqix2n1rV3F56ZqvlcVt89JW0KolG7-VU0wmcVcyQ/edit
